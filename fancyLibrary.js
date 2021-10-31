@@ -1,8 +1,8 @@
-function dataProvider(selectorFuction){
+function dataProvider(selectorFunction){
   const newData = { name: 'person' }
 
   setTimeout(() => {
-    selectorFuction(newData);
+    selectorFunction(newData);
   }, 3000);
 }
 
